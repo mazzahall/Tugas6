@@ -1,0 +1,30 @@
+.student-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.student-form input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.student-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.student-form button {
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #1e40af;
+}
